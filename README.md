@@ -43,8 +43,8 @@ Then visit `http://localhost:5500`.
 | Colours, fonts, spacing | the `:root` block at the top of `styles.css` |
 | Section order | move the `<section>` blocks inside `<main>` |
 
-All text was taken from `anu last resume (1).pdf`. Nothing was invented — no fake dates,
-employers, metrics or links.
+Resume details come from `anu last resume (1).pdf`; project descriptions come from each
+project's own README. Nothing was invented — no fake dates, employers, metrics or links.
 
 ## Links wired in
 
@@ -52,7 +52,7 @@ employers, metrics or links.
 - LinkedIn — https://linkedin.com/in/anu-sanu-sheeba254363331
 - Email — anusanu162@gmail.com
 - Phone — +91 76958 78528
-- Project repos — django-blog, accessibility-auditor, hate-speech-detector
+- Project repos — django-blog, accessibility-auditor, hate-speech-detector, stress-level-analyzer
 - The grievance system is labelled *Final Year Project* and has no repo link, because the
   resume does not list one. Add a link once the repository is public.
 

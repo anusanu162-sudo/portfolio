@@ -10,7 +10,7 @@
 <!-- Open Graph -->
 <meta property="og:type" content="website" />
 <meta property="og:title" content="Anu M — Django & FastAPI Developer" />
-<meta property="og:description" content="Python web developer building REST APIs and server-rendered applications with Django, FastAPI, MySQL and MongoDB." />
+<meta property="og:description" content="Python web developer building server-rendered applications and web apps with Django, Flask, FastAPI, MySQL and MongoDB." />
 <meta property="og:image" content="assets/profile.jpg" />
 
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%237c5cff'/%3E%3Cstop offset='1' stop-color='%2322d3ee'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='16' fill='url(%23g)'/%3E%3Ctext x='32' y='43' font-family='Arial,sans-serif' font-size='28' font-weight='700' fill='%23070a12' text-anchor='middle'%3EAM%3C/text%3E%3C/svg%3E" />
@@ -86,7 +86,7 @@
 
       <p class="hero-lede reveal" data-reveal style="--delay:.18s">
         Final-year <strong>B.E. Computer Science</strong> student with a <strong>9.32 CGPA</strong>,
-        building Python web applications and REST APIs with <strong>Django</strong> and
+        building Python web applications with <strong>Django</strong>, <strong>Flask</strong> and
         <strong>FastAPI</strong> — backed by MySQL and MongoDB.
       </p>
 
@@ -144,7 +144,7 @@
       </div>
       <div class="stat">
         <dt>Projects built</dt>
-        <dd><span class="counter" data-target="4">0</span></dd>
+        <dd><span class="counter" data-target="5">0</span></dd>
       </div>
       <div class="stat">
         <dt>Internship</dt>
@@ -166,7 +166,6 @@
     <span>FastAPI</span><span class="sep">◆</span>
     <span>MySQL</span><span class="sep">◆</span>
     <span>MongoDB Atlas</span><span class="sep">◆</span>
-    <span>REST APIs</span><span class="sep">◆</span>
     <span>Git &amp; GitHub</span><span class="sep">◆</span>
     <span>GitHub Actions</span><span class="sep">◆</span>
     <span>Playwright</span><span class="sep">◆</span>
@@ -176,7 +175,6 @@
     <span>FastAPI</span><span class="sep">◆</span>
     <span>MySQL</span><span class="sep">◆</span>
     <span>MongoDB Atlas</span><span class="sep">◆</span>
-    <span>REST APIs</span><span class="sep">◆</span>
     <span>Git &amp; GitHub</span><span class="sep">◆</span>
     <span>GitHub Actions</span><span class="sep">◆</span>
     <span>Playwright</span><span class="sep">◆</span>
@@ -198,14 +196,14 @@
           I'm a final-year Computer Science and Engineering student at
           <strong>Mahendra Institute of Technology, Namakkal</strong>. Most of my time goes into
           Python web development — writing Django models and migrations, wiring up the ORM,
-          and serving data through REST-style APIs built with FastAPI.
+          and building pages and forms that talk to a database.
         </p>
         <p>
           I like the part of the job where data has to be <em>correct</em>: validating a request
           body, handling the one case that returns a 404, or making sure a form actually fails
           loudly instead of silently. My projects include a full blog application, an
-          accessibility auditing tool, a hate-speech classifier and a final-year consumer
-          grievance system.
+          accessibility auditing tool, a hate-speech classifier, a Flask stress-level
+          questionnaire and a final-year consumer grievance system.
         </p>
         <p>
           Right now I'm looking for an <strong>entry-level IT or software development role</strong>
@@ -291,7 +289,7 @@
           <h3>Frameworks</h3>
         </div>
         <ul class="chips">
-          <li>Django</li><li>FastAPI</li><li>Pydantic</li><li>Streamlit</li>
+          <li>Django</li><li>Flask</li><li>FastAPI</li><li>Pydantic</li><li>Streamlit</li>
         </ul>
       </article>
 
@@ -321,7 +319,7 @@
           <h3>Core concepts</h3>
         </div>
         <ul class="chips">
-          <li>REST APIs</li><li>OOP</li><li>Database design</li><li>Data validation</li>
+          <li>OOP</li><li>Database design</li><li>Data validation</li><li>Jinja2 templates</li>
         </ul>
       </article>
 
@@ -344,7 +342,7 @@
     <header class="section-head">
       <p class="section-kicker reveal" data-reveal>03 — Projects</p>
       <h2 class="section-title reveal" data-reveal>Things I've actually shipped</h2>
-      <p class="section-sub reveal" data-reveal>Four projects, each one taught me something the previous one didn't.</p>
+      <p class="section-sub reveal" data-reveal>Five projects, each one taught me something the previous one didn't.</p>
     </header>
 
     <div class="projects-grid">
@@ -444,6 +442,33 @@
           </a>
         </div>
       </article>
+
+      <article class="project-card reveal" data-reveal style="--delay:.24s" data-tilt>
+        <div class="project-top">
+          <span class="project-tag">Flask web app</span>
+          <span class="project-index">05</span>
+        </div>
+        <h3 class="project-title">Stress Level Analyzer</h3>
+        <p class="project-desc">
+          A Flask web app that asks 10 lifestyle questions — sleep, work hours, screen time,
+          exercise, caffeine, deadlines — and shows an estimated stress level: Low, Moderate
+          or High, with a short message.
+        </p>
+        <ul class="project-points">
+          <li>Each answer carries a fixed point value; the total is scored out of 100 and mapped to a level.</li>
+          <li>Deliberately a rule-based questionnaire, not a trained model — the README says so plainly.</li>
+          <li>Jinja2 templates for the questionnaire and result page, with the scoring logic in one Flask app.</li>
+        </ul>
+        <ul class="chips chips-sm">
+          <li>Python</li><li>Flask</li><li>Jinja2</li><li>HTML/CSS</li>
+        </ul>
+        <div class="project-links">
+          <a class="link-arrow" href="https://github.com/anusanu162-sudo/stress-level-analyzer" target="_blank" rel="noopener">
+            View on GitHub
+            <svg viewBox="0 0 24 24" class="ico" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+      </article>
     </div>
 
     <p class="projects-note reveal" data-reveal>
@@ -468,7 +493,7 @@
           <p class="tl-meta">Education · Final year</p>
           <h3>B.E. Computer Science &amp; Engineering</h3>
           <p class="tl-org">Mahendra Institute of Technology, Namakkal</p>
-          <p class="tl-desc">CGPA <strong>9.32</strong>. Focus on Python web development, databases and REST APIs.</p>
+          <p class="tl-desc">CGPA <strong>9.32</strong>. Focus on Python web development and databases.</p>
         </div>
       </article>
 
