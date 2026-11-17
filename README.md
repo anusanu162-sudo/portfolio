@@ -3,6 +3,9 @@
 A single-page portfolio built with plain HTML, CSS and JavaScript. No build step, no frameworks,
 no npm install — open `index.html` and it runs.
 
+**Live site:** https://anusanu162-sudo.github.io/portfolio/
+**Repository:** https://github.com/anusanu162-sudo/portfolio
+
 ## Files
 
 ```text
