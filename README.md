@@ -15,7 +15,8 @@ portfolio/
 ├── script.js                     scroll reveals, counters, typing effect, menu, copy-email
 └── assets/
     ├── profile.jpg               your photo (used in the hero)
-    └── Anu-M-Resume.pdf          the file the "Resume" buttons download
+    ├── Anu-M-Resume.pdf          the file the "Resume" buttons download
+    └── Anu-M-Resume.docx         editable source of that resume (not linked from the site)
 ```
 
 ## Open it
